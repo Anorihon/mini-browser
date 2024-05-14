@@ -1,0 +1,41 @@
+{
+  "name": "mini-browser",
+  "productName": "mini-browser",
+  "version": "1.0.0",
+  "description": "Mini browser on Electron and Vue.js",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron-forge/plugin-vite": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "30.0.3",
+    "sass": "^1.77.1",
+    "vite": "^5.2.11"
+  },
+  "keywords": ["Electron", "Vue.js", "mini-browser", "electron-forge"],
+  "author": {
+    "name": "Anorihon",
+    "email": "mrsign002@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "pinia": "^2.1.7",
+    "uuid": "^9.0.1",
+    "vue": "^3.4.27"
+  }
+}
